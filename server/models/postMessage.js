@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const postSchema = mongoose.Schema({
     submittor: String,
     description: String,
+    image: String,
     likeCount: {
         type: Number,
         default: 0
